@@ -14,3 +14,11 @@
 6. Once version of node is confirmed as v16 or above, type this command to run node js code> node /home/user/Code/redisAPI/redisCode.js
 7. Here '/home/user/Code/redisAPI/redisCode.js' is my folder path your folder path could be different. Pls paste your folder path where git clone was taken
 
+# Steps to run Reids like miniserver.js file directly on docker 
+1. If redis is instlled on your machine stop its service and port 6379 through this command: sudo systemctl stop redis.service
+2. Now Right click on local folder with name: redisAPI19Apr and choose open in terminal option
+3. Type command>node miniserver.js and hit enter
+4. Now our reids like server is listening on port 6379
+5. I was not sure if writing API to listen to this mini server is in scope so for now I have not written API code
+
+
